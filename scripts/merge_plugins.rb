@@ -34,6 +34,9 @@ opt.parse!(ARGV)
 
 @logger = Logger.new(STDOUT)
 @logger.level = options[:log_level]
+@logger.formatter = proc { |severity, datetime, progname, message|
+  "#{severity}: #{message}\n"
+}
 
 # Fetch latest plugins.json
 @logger.info("Fetching plugins.json ...")
