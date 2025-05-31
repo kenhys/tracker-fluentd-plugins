@@ -67,21 +67,29 @@ def fetch_github_repo_info(owner_and_repository, token)
 end
 
 checked = {}
+skip_count = 0
+no_vcs_count = 0
+archived_count = 0
+error_count = 0
+regulation_count = 0
 plugins.each_with_index do |plugin, index|
   plugin_name, metadata = plugin
   if checked?(metadata, options)
     @logger.debug("<#{plugin_name}> was already checked at: #{metadata['checked_at']}")
     checked[plugin_name] = metadata
+    skip_count += 1
     next
   end
   unless metadata["vcs"]
     @logger.info("no vcs for <#{plugin_name}>, skip it")
     checked[plugin_name] = metadata
+    no_vcs_count += 1
     next
   end
   if metadata["archived"]
     @logger.info("skip already archived <#{plugin_name}>")
     checked[plugin_name] = metadata
+    archived_count += 1
     next
   end
   begin
@@ -108,9 +116,10 @@ plugins.each_with_index do |plugin, index|
     @logger.info("Invalid VCS: <#{metadata['vcs']}> for <#{plugin_name}>, skip it")
     metadata["vcs"] = false
     metadata.delete("ci")
-    errors += 1
+    error_count += 1
   rescue OpenURI::HTTPError
     @logger.warn("Might be reached API limits: <#{metadata['vcs']}> for <#{plugin_name}>")
+    regulation_count += 1
   end
   @logger.debug("<#{plugin_name}>, #{metadata}")
   if metadata["archived"]
@@ -122,4 +131,12 @@ checked_yaml_path = "checked.yml"
 File.open(checked_yaml_path, "w+") do |file|
   file.write(YAML.dump(checked))
 end
-
+summary = <<EOS
+Total: #{plugins.size}
+  Skipped: #{skip_count}
+  No VCS: #{no_vcs_count}
+  Archived: #{archived_count}
+  Error: #{error_count}
+  Regulation: #{regulation_count}
+EOS
+puts summary
