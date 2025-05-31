@@ -58,6 +58,12 @@ unless ENV["GITHUB_ACCESS_TOKEN"]
 end
 
 def fetch_github_repo_info(owner_and_repository, token)
+  if owner_and_repository.end_with?("/")
+    owner_and_repository = owner_and_repository[..-2]
+  end
+  if owner_and_repository.end_with?(".git")
+    owner_and_repository = owner_and_repository[..-5]
+  end
   URI.open("https://api.github.com/repos/#{owner_and_repository}",
            "Accept" => "application/vnd.github+json",
            "Authorization" => "Bearer #{token}",
@@ -100,6 +106,7 @@ plugins.each_with_index do |plugin, index|
     Timeout.timeout(10) do
       if metadata["vcs"].start_with?("https://github.com")
         uri = URI.parse(metadata["vcs"])
+        # trim first /
         owner_and_repository = uri.path[1..]
         fetch_github_repo_info(owner_and_repository, ENV["GITHUB_ACCESS_TOKEN"]) do |data|
           if data["archived"]
