@@ -5348,10 +5348,20 @@ fluent-plugin-jllog:
   checked_at: '2025-05-31'
 fluent-plugin-ldap-client:
   homepage_uri:
+  vcs: false
+  note: Only rubygems
+  checked_at: '2025-05-31'
 fluent-plugin-rabbitmq-pbk:
   homepage_uri:
+  vcs: false
+  note: Only rubygems
+  checked_at: '2025-05-31'
 fluent-plugin-parser_cefalt:
   homepage_uri:
+  note: Only rubygems. It might be https://github.com/sparkmark/fluent-plugin-parser_cefalt
+  vcs: https://github.com/sparkmark/fluent-plugin-parser_cefalt
+  ci: travis
+  checked_at: '2025-05-31'
 fluent-plugin-time-cutoff:
   homepage_uri:
 fluent-plugin-nuopenlineage-light:
@@ -5367,6 +5377,8 @@ fluent-plugin-fluent-package-update-notifier:
   checked_at: '2025-05-31'
 fluent-plugin-syscheck:
   homepage_uri: https://gitlab.com/ttych/fluent-plugin-syscheck
+  vcs: https://gitlab.com/ttych/fluent-plugin-syscheck
+  ci: false
 fluent-plugin-splunk-enterprise:
   homepage_uri: ''
   vcs: false
