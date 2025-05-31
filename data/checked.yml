@@ -111,6 +111,7 @@ fluent-plugin-forest:
   vcs: https://github.com/tagomoris/fluent-plugin-forest
   note: Not archived yet.
   ci: false
+  obsolete: true
   checked_at: '2025-05-31'
 fluent-plugin-multi-format-parser:
   homepage_uri: https://github.com/repeatedly/fluent-plugin-multi-format-parser
