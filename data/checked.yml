@@ -626,7 +626,7 @@ fluent-plugin-filter_empty_keys:
   homepage_uri: https://github.com/wshihadeh/fluent-plugin-filter_empty_keys.git
   vcs: https://github.com/wshihadeh/fluent-plugin-filter_empty_keys.git
   ci: travis
-  checked_at: '2025-05-17'
+  checked_at: '2025-05-31'
 fluent-plugin-azure-loganalytics:
   homepage_uri: http://github.com/yokawasa/fluent-plugin-azure-loganalytics
   vcs: http://github.com/yokawasa/fluent-plugin-azure-loganalytics
@@ -1610,7 +1610,7 @@ fluent-plugin-filter-kv-parser:
   homepage_uri: https://github.com/wshihadeh/fluent-plugin-filter-kv-parser.git
   vcs: https://github.com/wshihadeh/fluent-plugin-filter-kv-parser.git
   ci: github
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-out-http-ext:
   homepage_uri:
 fluent-plugin-verticajson:
@@ -1718,7 +1718,7 @@ fluent-plugin-nats-streaming:
   homepage_uri: https://github.com/hc-chien/fluent-plugin-nats-streaming.git
   vcs: https://github.com/hc-chien/fluent-plugin-nats-streaming.git
   ci: github
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-redis-counter:
   homepage_uri: https://github.com/kbinani/fluent-plugin-redis-counter
   vcs: https://github.com/kbinani/fluent-plugin-redis-counter
@@ -1787,7 +1787,7 @@ fluent-plugin-file-sprintf:
   homepage_uri: https://github.com/toyama0919/fluent-plugin-file-sprintf/
   vcs: https://github.com/toyama0919/fluent-plugin-file-sprintf/
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-wendelin:
   homepage_uri: https://lab.nexedi.com/nexedi/fluent-plugin-wendelin
 fluent-plugin-time_parser:
@@ -1878,7 +1878,7 @@ fluent-plugin-sqlite3:
   homepage_uri: https://github.com/cosmo0920/fluent-plugin-sqlite3.git
   vcs: https://github.com/cosmo0920/fluent-plugin-sqlite3.git
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-droonga:
   homepage_uri: https://github.com/droonga/fluent-plugin-droonga
   vcs: https://github.com/droonga/fluent-plugin-droonga
@@ -2081,7 +2081,7 @@ fluent-plugin-jvmwatcher:
   homepage_uri: https://github.com/MasayukiMiyake97/fluent-plugin-jvmwatcher.git
   vcs: https://github.com/MasayukiMiyake97/fluent-plugin-jvmwatcher.git
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-unit-time-filter:
   homepage_uri: https://bitbucket.org/winebarrel/fluent-plugin-unit-time-filter
 fluent-plugin-samefile:
@@ -2523,7 +2523,7 @@ fluent-plugin-parser-maybejson:
   homepage_uri: https://github.com/ninadpage/fluent-plugin-parser-maybejson/
   vcs: https://github.com/ninadpage/fluent-plugin-parser-maybejson/
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-format:
   homepage_uri: https://github.com/mach/fluent-plugin-format
   vcs: https://github.com/mach/fluent-plugin-format
@@ -2679,7 +2679,7 @@ fluent-plugin-cf_query_filter:
   homepage_uri: https://github.com/kazuki1213/fluent-plugin-cf_query_filter.git
   vcs: https://github.com/kazuki1213/fluent-plugin-cf_query_filter.git
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-splunk:
   homepage_uri: https://github.com/parolkar/fluent-plugin-splunk
   vcs: https://github.com/parolkar/fluent-plugin-splunk
@@ -2760,7 +2760,7 @@ fluent-plugin-werkzeug-profiler:
   homepage_uri: https://github.com/zoncoen/fluent-plugin-werkzeug-profiler.git
   vcs: https://github.com/zoncoen/fluent-plugin-werkzeug-profiler.git
   ci: travis
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-mysql-binlog:
   homepage_uri: https://github.com/izumiya/fluent-plugin-mysql-binlog
   vcs: https://github.com/izumiya/fluent-plugin-mysql-binlog
@@ -2872,7 +2872,7 @@ fluent-plugin-lookup:
   homepage_uri: https://github.com/Neozaru/fluent-plugin-lookup.git
   vcs: https://github.com/Neozaru/fluent-plugin-lookup.git
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-logsene:
   homepage_uri: https://github.com/mbonaci/fluent-plugin-logsene
   vcs: https://github.com/mbonaci/fluent-plugin-logsene
@@ -2896,7 +2896,7 @@ fluent-plugin-parserequestbody:
   homepage_uri: https://github.com/k1row/fluent-plugin-requestbody.git
   vcs: https://github.com/k1row/fluent-plugin-requestbody.git
   ci: travis
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-key-picker:
   homepage_uri: http://github.com/cads/fluent-plugin-key-picker
 fluent-plugin-syslog-gobi-tls:
@@ -2920,7 +2920,7 @@ fluent-plugin-record-splitter:
   homepage_uri: https://github.com/wshihadeh/fluent-plugin-record-splitter.git
   vcs: https://github.com/wshihadeh/fluent-plugin-record-splitter.git
   ci: github
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-collectd-nest:
   homepage_uri: https://github.com/viaq/fluent-plugin-collectd-nest
   vcs: https://github.com/viaq/fluent-plugin-collectd-nest
@@ -2984,7 +2984,7 @@ fluent-plugin-out-file-with-fix-path:
   homepage_uri: https://github.com/fetaro/fluent-plugin-out-file-with-fix-path.git
   vcs: https://github.com/fetaro/fluent-plugin-out-file-with-fix-path.git
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-aurora-slowquerylog:
   homepage_uri: https://github.com/takanabe/fluent-plugin-aurora-slowquerylog
   vcs: https://github.com/takanabe/fluent-plugin-aurora-slowquerylog
@@ -3600,7 +3600,7 @@ fluent-plugin-filter_codec:
   homepage_uri: https://github.com/Neozaru/fluent-plugin-filter_codec.git
   vcs: https://github.com/Neozaru/fluent-plugin-filter_codec.git
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-exec_placeholder:
   homepage_uri: https://github.com/toyama0919/fluent-plugin-exec_placeholder
   vcs: https://github.com/toyama0919/fluent-plugin-exec_placeholder
@@ -4059,7 +4059,7 @@ fluent-plugin-leftronic:
   homepage_uri: https://github.com/toyama0919/fluent-plugin-leftronic/
   vcs: https://github.com/toyama0919/fluent-plugin-leftronic/
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-storage-leveldb:
   homepage_uri: https://github.com/cosmo0920/fluent-plugin-storage-leveldb
   vcs: https://github.com/cosmo0920/fluent-plugin-storage-leveldb
@@ -4098,7 +4098,7 @@ fluent-plugin-groonga-log:
   homepage_uri: https://github.com/groonga/fluent-plugin-groonga-log.git
   vcs: https://github.com/groonga/fluent-plugin-groonga-log.git
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-tail-lite:
   homepage_uri: https://github.com/choplin/fluent-plugin-tail-lite
   vcs: https://github.com/choplin/fluent-plugin-tail-lite
@@ -4158,7 +4158,8 @@ fluent-plugin-stathat:
   homepage_uri: https://github.com/f440/fluent-plugin-stathat/
   vcs: https://github.com/f440/fluent-plugin-stathat/
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
+  archived: true
 fluent-plugin-onlineuser:
   homepage_uri: https://github.com/lanyuyang/fluent-plugin-onlineuser
   vcs: false
@@ -4262,7 +4263,7 @@ fluent-plugin-incremental:
   homepage_uri: https://github.com/toyama0919/fluent-plugin-incremental/
   vcs: https://github.com/toyama0919/fluent-plugin-incremental/
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-sstp:
   homepage_uri: https://github.com/bash0C7/fluent-plugin-sstp
   vcs: https://github.com/bash0C7/fluent-plugin-sstp
@@ -4303,7 +4304,7 @@ fluent-plugin-multiline-greenplum-log:
   homepage_uri: https://github.com/hawq-cn/fluent-plugin-multiline-greenplum-log.git
   vcs: https://github.com/hawq-cn/fluent-plugin-multiline-greenplum-log.git
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-mecab:
   homepage_uri: http://github.com/katsyoshi/fluent-plugin-mecab
 fluent-plugin-tumblr:
@@ -4399,7 +4400,7 @@ fluent-plugin-warp10:
   homepage_uri: https://github.com/cityzendata/fluentd-plugin-warp10.git
   vcs: https://github.com/cityzendata/fluentd-plugin-warp10.git
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-gelf-best:
   homepage_uri:
 fluent-plugin-resque-ex:
@@ -4442,7 +4443,7 @@ fluent-plugin-mailrelay:
   homepage_uri: https://github.com/yudai09/fluent-plugin-mailrelay.git
   vcs: https://github.com/yudai09/fluent-plugin-mailrelay.git
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-aerospike:
   homepage_uri: https://bitbucket.org/hidepiy/fluent-plugin-aerospike
 fluent-plugin-buffered-resque:
@@ -4454,7 +4455,7 @@ fluent-plugin-random:
   homepage_uri: https://github.com/Neozaru/fluent-plugin-random.git
   vcs: https://github.com/Neozaru/fluent-plugin-random.git
   ci: false
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-ssl-check:
   homepage_uri: https://gitlab.com/ttych/fluent-plugin-ssl-check
 fluent-plugin-vertica-query:
@@ -4878,7 +4879,7 @@ fluent-plugin-port_to_service:
   homepage_uri: https://github.com/cpedro/fluent-plugin-port_to_service.git
   vcs: https://github.com/cpedro/fluent-plugin-port_to_service.git
   ci: travis
-  checked_at: '2025-05-24'
+  checked_at: '2025-05-31'
 fluent-plugin-out-upsolver:
   homepage_uri: https://github.com/Upsolver/fluent-plugin-out-upsolver
   vcs: false
