@@ -76,8 +76,9 @@ checked = {}
 skip_count = 0
 no_vcs_count = 0
 archived_count = 0
+timeout_count = 0
 error_count = 0
-regulation_count = 0
+error_uris = []
 plugins.each_with_index do |plugin, index|
   plugin_name, metadata = plugin
   if checked?(metadata, options)
@@ -123,10 +124,11 @@ plugins.each_with_index do |plugin, index|
     @logger.info("Invalid VCS: <#{metadata['vcs']}> for <#{plugin_name}>, skip it")
     metadata["vcs"] = false
     metadata.delete("ci")
-    error_count += 1
+    timeout_count += 1
   rescue OpenURI::HTTPError
     @logger.warn("Might be reached API limits: <#{metadata['vcs']}> for <#{plugin_name}>")
-    regulation_count += 1
+    error_count += 1
+    error_uris << metadata['vcs']
   end
   @logger.debug("<#{plugin_name}>, #{metadata}")
   if metadata["archived"]
@@ -143,7 +145,9 @@ Total: #{plugins.size}
   Skipped: #{skip_count}
   No VCS: #{no_vcs_count}
   Archived: #{archived_count}
+  Timeout error: #{timeout_count}
   Error: #{error_count}
-  Regulation: #{regulation_count}
+  Error reported URL:
+	#{error_uris.join("\n\t")}
 EOS
 puts summary
