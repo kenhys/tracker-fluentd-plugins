@@ -79,6 +79,25 @@ archived_count = 0
 timeout_count = 0
 error_count = 0
 error_uris = []
+
+=begin
+plugins = [
+  ["fluent-plugin-mysqlslowquery", {
+     "vcs" => "https://github.com/yuku-t/fluent-plugin-mysqlslowquery",
+     "arvhived" => true,
+     "checked_at" => "2025-06-13"
+   }
+  ],
+  [
+    "fluent-plugin-json-in-json", {
+     "vcs" => "https://github.com/gmr/fluent-plugin-json-in-json",
+     "arvhived" => true,
+     "checked_at" => "2025-06-13"
+    }
+  ]
+]
+=end
+
 plugins.each_with_index do |plugin, index|
   plugin_name, metadata = plugin
   if checked?(metadata, options)
@@ -112,7 +131,9 @@ plugins.each_with_index do |plugin, index|
         fetch_github_repo_info(owner_and_repository, ENV["GITHUB_ACCESS_TOKEN"]) do |data|
           if data["archived"]
             metadata["archived"] = data["archived"]
-            @logger.warn("<#{plugin_name}> was archived")
+            # guess newer pushed_at
+            metadata["archived_at"] = Time.parse(data["pushed_at"]).strftime("%Y-%m-%d")
+            @logger.warn("<#{plugin_name}> was archived at #{metadata['archived_at']}")
           end
         end
       else
