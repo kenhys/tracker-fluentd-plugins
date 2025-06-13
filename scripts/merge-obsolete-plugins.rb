@@ -77,10 +77,13 @@ checked.each do |plugin|
     end
   end
   if metadata["archived"]
+    message = "Unmaintained since #{metadata['archived_at']}."
     unless obsolete_plugins[plugin_name]
-      @logger.warn("<#{plugin_name}> was unmaintained since ...")
+      @logger.warn("<#{plugin_name}> was #{message}")
       # Unmaintained since ...
-      obsolete_plugins[plugin_name] = "Unmaintained since #{metadata['archived_at']}."
+      obsolete_plugins[plugin_name] = message
+    else
+      obsolete_plugins[plugin_name] << message
     end
   end
 end
