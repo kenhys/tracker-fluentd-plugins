@@ -5,6 +5,7 @@ require 'yaml'
 require 'time'
 require 'timeout'
 require 'open-uri'
+require 'nokogiri'
 
 =begin
 
@@ -132,8 +133,17 @@ plugins.each_with_index do |plugin, index|
           if data["archived"]
             metadata["archived"] = data["archived"]
             # guess newer pushed_at
-            metadata["archived_at"] = Time.parse(data["pushed_at"]).strftime("%Y-%m-%d")
-            @logger.warn("<#{plugin_name}> was archived at #{metadata['archived_at']}")
+            html = URI.open(metadata["vcs"]).read
+            doc = Nokogiri::HTML.parse(html, nil, 'UTF-8')
+            yyyymmdd = ""
+            doc.xpath("//main[@id='js-repo-pjax-container']").each do |main|
+              main.xpath(".//div[@class='flash flash-warn flash-full border-top-0 text-center text-bold py-2']").each do |div|
+                if div.text =~ /on(.+)./
+                  metadata["archived_at"] = Time.parse($1).strftime("%Y-%m-%d")
+                end
+              end
+            end
+            @logger.warn("<#{plugin_name}> was archived at: #{metadata['archived_at']} pushed at: #{data['pushed_at']} updated at: #{data['updated_at']}")
           end
         end
       else
