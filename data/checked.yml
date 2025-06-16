@@ -944,6 +944,7 @@ fluent-plugin-deis-graphite:
   archived: true
   ci: false
   checked_at: '2025-05-17'
+  archived_at: '2018-05-31'
 fluent-plugin-extract_query_params:
   homepage_uri: http://github.com/kentaro/fluent-plugin-extract_query_params
   vcs: https://github.com/kentaro/fluent-plugin-extract_query_params
