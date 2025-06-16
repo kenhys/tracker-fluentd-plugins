@@ -315,7 +315,7 @@ fluent-plugin-mysqlslowquery:
   vcs: https://github.com/yuku-t/fluent-plugin-mysqlslowquery
   archived: true
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived_at: '2018-12-22'
 fluent-plugin-beats:
   homepage_uri: https://github.com/repeatedly/fluent-plugin-beats
@@ -493,8 +493,8 @@ fluent-plugin-azure-storage-append-blob:
   archived: true
   obsolete: true
   ci: github
-  checked_at: '2025-06-13'
-  archived_at: '2021-02-01'
+  checked_at: '2025-06-16'
+  archived_at: '2021-02-02'
 fluent-plugin-kubernetes:
   homepage_uri: https://github.com/fabric8io/fluent-plugin-kubernetes
   vcs: https://github.com/fabric8io/fluent-plugin-kubernetes
@@ -540,8 +540,8 @@ fluent-plugin-mutate_filter:
   vcs: https://github.com/JonathanSerafini/fluent-plugin-mutate_filter
   archived: true
   ci: false
-  checked_at: '2025-06-13'
-  archived_at: '2019-09-12'
+  checked_at: '2025-06-16'
+  archived_at: '2019-09-13'
 fluent-plugin-ping-message:
   homepage_uri: https://github.com/tagomoris/fluent-plugin-ping-message
   vcs: https://github.com/tagomoris/fluent-plugin-ping-message
@@ -594,16 +594,16 @@ fluent-plugin-json-in-json:
   obsolete: true
   archived: true
   ci: false
-  checked_at: '2025-06-13'
-  archived_at: '2023-06-02'
+  checked_at: '2025-06-16'
+  archived_at: '2024-10-15'
 fluent-plugin-docker_metadata_filter:
   homepage_uri: https://github.com/fabric8io/fluent-plugin-docker_metadata_filter
   vcs: https://github.com/fabric8io/fluent-plugin-docker_metadata_filter
   obsolete: true
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2017-04-06'
+  archived_at: '2025-06-05'
 fluent-plugin-barito:
   homepage_uri: https://github.com/BaritoLog/Barito-Fluent-Plugin
   vcs: https://github.com/BaritoLog/Barito-Fluent-Plugin
@@ -628,8 +628,8 @@ fluent-plugin-timescaledb:
   homepage_uri: https://github.com/1500cloud/fluent-plugin-timescaledb
   vcs: https://github.com/1500cloud/fluent-plugin-timescaledb
   archived: true
-  checked_at: '2025-06-13'
-  archived_at: '2021-04-14'
+  checked_at: '2025-06-16'
+  archived_at: '2024-06-25'
 fluent-plugin-filter_empty_keys:
   homepage_uri: https://github.com/wshihadeh/fluent-plugin-filter_empty_keys.git
   vcs: https://github.com/wshihadeh/fluent-plugin-filter_empty_keys.git
@@ -660,8 +660,8 @@ fluent-plugin-dd:
   vcs: https://github.com/winebarrel/fluent-plugin-dd
   archived: true
   ci: travis
-  checked_at: '2025-06-13'
-  archived_at: '2019-11-25'
+  checked_at: '2025-06-16'
+  archived_at: '2024-08-12'
 fluent-plugin-auto-typecast-filter:
   homepage_uri: https://github.com/s5o-c/fluent-plugin-auto-typecast-filter
   vcs: https://github.com/s5o-c/fluent-plugin-auto-typecast-filter
@@ -709,8 +709,8 @@ fluent-plugin-td-monitoring:
   vcs: https://github.com/treasure-data/fluent-plugin-td-monitoring
   archived: true
   obsolete: true
-  checked_at: '2025-06-13'
-  archived_at: '2019-04-24'
+  checked_at: '2025-06-16'
+  archived_at: '2023-07-03'
 fluent-plugin-kv-parser:
   homepage_uri: https://github.com/fluent-plugins-nursery/fluent-plugin-kv-parser
   vcs: https://github.com/fluent-plugins-nursery/fluent-plugin-kv-parser
@@ -721,15 +721,15 @@ fluent-plugin-azuremonitorlog:
   vcs: https://github.com/Azure/fluent-plugin-azureamonitorlog
   archived: true
   ci: false
-  checked_at: '2025-06-13'
-  archived_at: '2017-12-09'
+  checked_at: '2025-06-16'
+  archived_at: '2020-12-20'
 fluent-plugin-application-insights:
   homepage_uri: https://github.com/Microsoft/fluent-plugin-application-insights
   vcs: https://github.com/Microsoft/fluent-plugin-application-insights
   archived: true
   ci: false
-  checked_at: '2025-06-13'
-  archived_at: '2019-08-12'
+  checked_at: '2025-06-16'
+  archived_at: '2023-11-16'
 fluent-plugin-parser-winevt_xml:
   homepage_uri: https://github.com/fluent/fluent-plugin-parser-winevt_xml
   vcs: https://github.com/fluent/fluent-plugin-parser-winevt_xml
@@ -826,8 +826,8 @@ fluent-plugin-viaq_data_model:
   vcs: https://github.com/ViaQ/fluent-plugin-viaq_data_model
   archived: true
   ci: travis
-  checked_at: '2025-06-13'
-  archived_at: '2019-12-05'
+  checked_at: '2025-06-16'
+  archived_at: '2020-10-02'
 fluent-plugin-typecast:
   homepage_uri: http://github.com/tarom/fluent-plugin-typecast
   vcs: https://github.com/tarom/fluent-plugin-typecast
@@ -859,8 +859,8 @@ fluent-plugin-cloudwatch-ingest:
   vcs: https://github.com/sampointer/fluent-plugin-cloudwatch-ingest
   archived: true
   ci: false
-  checked_at: '2025-06-13'
-  archived_at: '2020-09-28'
+  checked_at: '2025-06-16'
+  archived_at: '2020-12-30'
 fluent-plugin-azureeventhubs:
   homepage_uri: https://github.com/htgc/fluent-plugin-azureeventhubs
   vcs: https://github.com/htgc/fluent-plugin-azureeventhubs
@@ -910,15 +910,15 @@ fluent-plugin-filter-parse-audit-log:
   vcs: https://github.com/winebarrel/fluent-plugin-filter-parse-audit-log
   archived: true
   ci: travis
-  checked_at: '2025-06-13'
-  archived_at: '2021-03-16'
+  checked_at: '2025-06-16'
+  archived_at: '2022-04-03'
 fluent-plugin-amqp:
   homepage_uri: http://github.com/giraffi/fluent-plugin-amqp
   vcs: https://github.com/giraffi/fluent-plugin-amqp
   archived: true
   ci: travis
-  checked_at: '2025-06-13'
-  archived_at: '2020-07-12'
+  checked_at: '2025-06-16'
+  archived_at: '2024-06-11'
 fluent-plugin-alertmanager:
   homepage_uri: https://github.com/keijiyoshida/fluent-plugin-alertmanager
   vcs: https://github.com/keijiyoshida/fluent-plugin-alertmanager
@@ -964,8 +964,8 @@ fluent-plugin-json-nest2flat:
   vcs: https://github.com/fukuiretu/fluent-plugin-json-nest2flat
   archived: true
   ci: false
-  checked_at: '2025-06-13'
-  archived_at: '2017-10-06'
+  checked_at: '2025-06-16'
+  archived_at: '2020-06-26'
 fluent-plugin-http-pull:
   homepage_uri: https://github.com/HatsuneMiku3939/fluent-plugin-http-pull
   vcs: https://github.com/HatsuneMiku3939/fluent-plugin-http-pull
@@ -996,8 +996,8 @@ fluent-plugin-filter-geoip:
   vcs: https://github.com/mosuka/fluent-plugin-filter-geoip
   archived: true
   ci: false
-  checked_at: '2025-06-13'
-  archived_at: '2017-11-14'
+  checked_at: '2025-06-16'
+  archived_at: '2020-04-24'
 fluent-plugin-json:
   homepage_uri: https://github.com/iamAzeem/fluent-plugin-json
   vcs: https://github.com/iamAzeem/fluent-plugin-json
@@ -1038,8 +1038,8 @@ fluent-plugin-nais:
   vcs: https://github.com/nais/fluent-plugin-nais
   archived: true
   ci: travis
-  checked_at: '2025-06-13'
-  archived_at: '2022-11-09'
+  checked_at: '2025-06-16'
+  archived_at: '2023-05-30'
 fluent-plugin-norikra:
   homepage_uri: https://github.com/norikra/fluent-plugin-norikra
   vcs: https://github.com/norikra/fluent-plugin-norikra
@@ -1070,8 +1070,8 @@ fluent-plugin-calyptia-monitoring:
   vcs: https://github.com/calyptia/fluent-plugin-calyptia-monitoring
   archived: true
   ci: github
-  checked_at: '2025-06-13'
-  archived_at: '2023-03-31'
+  checked_at: '2025-06-16'
+  archived_at: '2024-02-01'
 fluent-plugin-rds-pgsql-log:
   homepage_uri: https://github.com/shinsaka/fluent-plugin-rds-pgsql-log
   vcs: https://github.com/shinsaka/fluent-plugin-rds-pgsql-log
@@ -1120,8 +1120,8 @@ fluent-plugin-output-solr:
   vcs: https://github.com/mosuka/fluent-plugin-output-solr
   archived: true
   ci: travis
-  checked_at: '2025-06-13'
-  archived_at: '2018-10-05'
+  checked_at: '2025-06-16'
+  archived_at: '2020-04-24'
 fluent-plugin-jfrog-siem:
   homepage_uri: https://github.com/jfrog/fluent-plugin-jfrog-siem
   vcs: https://github.com/jfrog/fluent-plugin-jfrog-siem
@@ -1140,8 +1140,8 @@ fluent-plugin-kubernetes_sumologic:
   vcs: https://github.com/SumoLogic/fluentd-kubernetes-sumologic
   archived: true
   ci: travis
-  checked_at: '2025-06-13'
-  archived_at: '2019-11-22'
+  checked_at: '2025-06-16'
+  archived_at: '2021-02-05'
 fluent-plugin-mysql-replicator:
   homepage_uri: https://github.com/y-ken/fluent-plugin-mysql-replicator
   vcs: https://github.com/y-ken/fluent-plugin-mysql-replicator
@@ -1203,15 +1203,15 @@ fluent-plugin-rollbar:
   vcs: https://github.com/olafnorge/fluent-plugin-rollbar
   archived: true
   ci: false
-  checked_at: '2025-06-13'
-  archived_at: '2017-02-13'
+  checked_at: '2025-06-16'
+  archived_at: '2020-05-19'
 fluent-plugin-split-by-size:
   homepage_uri: https://github.com/zendesk/fluent-plugin-split-by-size
   vcs: https://github.com/zendesk/fluent-plugin-split-by-size
   archived: true
   ci: false
-  checked_at: '2025-06-13'
-  archived_at: '2023-04-09'
+  checked_at: '2025-06-16'
+  archived_at: '2024-11-23'
 fluent-plugin-nats:
   homepage_uri: https://github.com/achied/fluent-plugin-nats
   vcs: https://github.com/achied/fluent-plugin-nats
@@ -1249,15 +1249,15 @@ fluent-plugin-sumologic-cloud-syslog:
   vcs: https://github.com/acquia/fluent-plugin-sumologic-cloud-syslog
   archived: true
   ci: travis
-  checked_at: '2025-06-13'
-  archived_at: '2018-04-04'
+  checked_at: '2025-06-16'
+  archived_at: '2023-03-03'
 fluent-plugin-splunk-http-eventcollector:
   homepage_uri: https://github.com/brycied00d/fluent-plugin-splunk-http-eventcollector
   vcs: https://github.com/brycied00d/fluent-plugin-splunk-http-eventcollector
   archived: true
   ci: travis
-  checked_at: '2025-06-13'
-  archived_at: '2020-03-20'
+  checked_at: '2025-06-16'
+  archived_at: '2020-03-21'
 fluent-plugin-xml-parser:
   homepage_uri: http://github.com/toyokazu/fluent-plugin-xml-parser
   vcs: https://github.com/toyokazu/fluent-plugin-xml-parser
@@ -1293,8 +1293,8 @@ fluent-plugin-filter-record-map:
   vcs: https://github.com/winebarrel/fluent-plugin-filter-record-map
   archived: true
   ci: travis
-  checked_at: '2025-06-13'
-  archived_at: '2015-10-22'
+  checked_at: '2025-06-16'
+  archived_at: '2023-11-24'
 fluent-plugin-snmp:
   homepage_uri: https://github.com/iij/fluent-plugin-snmp
   vcs: https://github.com/iij/fluent-plugin-snmp
@@ -1354,8 +1354,8 @@ fluent-plugin-aliyun-odps:
   vcs: https://github.com/aliyun/aliyun-odps-fluentd-plugin
   archived: true
   ci: false
-  checked_at: '2025-06-13'
-  archived_at: '2016-06-23'
+  checked_at: '2025-06-16'
+  archived_at: '2023-02-08'
 fluent-plugin-syslog:
   homepage_uri: https://github.com/analogrithems/fluent-plugin-syslog
   vcs: https://github.com/analogrithems/fluent-plugin-syslog
@@ -1412,8 +1412,8 @@ fluent-plugin-honeycomb:
   vcs: https://github.com/honeycombio/fluent-plugin-honeycomb
   ci: false
   archived: true
-  checked_at: '2025-06-13'
-  archived_at: '2022-05-17'
+  checked_at: '2025-06-16'
+  archived_at: '2022-05-18'
 fluent-plugin-datadog-statsd:
   homepage_uri: https://github.com/kikusu/fluent-plugin-datadog-statsd
   vcs: https://github.com/kikusu/fluent-plugin-datadog-statsd
@@ -1463,8 +1463,8 @@ fluent-plugin-dynamodb-alt:
   vcs: https://github.com/winebarrel/fluent-plugin-dynamodb-alt
   archived: true
   ci: travis
-  checked_at: '2025-06-13'
-  archived_at: '2017-09-06'
+  checked_at: '2025-06-16'
+  archived_at: '2020-08-11'
 fluent-plugin-cadvisor:
   homepage_uri: https://github.com/Woorank/fluent-plugin-cadvisor
   vcs: false
@@ -1527,8 +1527,8 @@ fluent-plugin-loggly-syslog:
   vcs: https://github.com/solarwinds/fluent-plugin-loggly-syslog
   archived: true
   ci: circleci
-  checked_at: '2025-06-13'
-  archived_at: '2021-05-05'
+  checked_at: '2025-06-16'
+  archived_at: '2023-08-28'
 fluent-plugin-firehose:
   homepage_uri:
   vcs: false
@@ -1573,9 +1573,9 @@ fluent-plugin-zabbix-agent:
   homepage_uri: https://github.com/winebarrel/fluent-plugin-zabbix-agent
   vcs: https://github.com/winebarrel/fluent-plugin-zabbix-agent
   ci: travis
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2018-12-06'
+  archived_at: '2024-08-19'
 fluent-plugin-redmine:
   homepage_uri: https://github.com/takumakanari/fluent-plugin-redmine
   vcs: https://github.com/takumakanari/fluent-plugin-redmine
@@ -1616,7 +1616,7 @@ fluent-plugin-eventcounter:
   homepage_uri: https://github.com/change/fluent-plugin-eventcounter
   vcs: https://github.com/change/fluent-plugin-eventcounter
   ci: travis
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
   archived_at: '2025-03-18'
 fluent-plugin-kubernetes-metrics:
@@ -1652,18 +1652,18 @@ fluent-plugin-newsyslog:
   homepage_uri: https://github.com/athenahealth/fluent-plugin-newsyslog
   vcs: https://github.com/athenahealth/fluent-plugin-newsyslog
   ci: travis
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2017-03-03'
+  archived_at: '2022-05-04'
 fluent-plugin-forward-aws:
   homepage_uri: http://github.com/tomohisaota/fluent-plugin-forward-aws
 fluent-plugin-amplitude:
   homepage_uri: https://github.com/change/fluent-plugin-amplitude
   vcs: https://github.com/change/fluent-plugin-amplitude
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2018-11-01'
+  archived_at: '2024-02-02'
 fluent-plugin-oci-logging:
   homepage_uri: https://docs.cloud.oracle.com/en-us/iaas/Content/Logging/Concepts/loggingoverview.htm
 fluent-plugin-masking:
@@ -1712,9 +1712,9 @@ fluent-plugin-lambda:
   homepage_uri: https://github.com/winebarrel/fluent-plugin-lambda
   vcs: https://github.com/winebarrel/fluent-plugin-lambda
   ci: travis
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2018-03-13'
+  archived_at: '2023-10-12'
 fluent-plugin-eval-filter:
   homepage_uri: https://github.com/ephemeralsnow/fluent-plugin-eval-filter
   vcs: https://github.com/ephemeralsnow/fluent-plugin-eval-filter
@@ -1837,9 +1837,9 @@ fluent-plugin-histogram:
   homepage_uri: https://github.com/karahiyo/fluent-plugin-histogram
   vcs: https://github.com/karahiyo/fluent-plugin-histogram
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2017-03-28'
+  archived_at: '2022-04-05'
 fluent-plugin-splunk-parser:
   homepage_uri: https://github.com/zsoltf/fluent-plugin-splunk-parser
   vcs: https://github.com/zsoltf/fluent-plugin-splunk-parser
@@ -2077,9 +2077,9 @@ fluent-plugin-redis_list_poller:
   homepage_uri: https://github.com/JonathanSerafini/fluent-plugin-redis_list_poller
   vcs: https://github.com/JonathanSerafini/fluent-plugin-redis_list_poller
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2019-09-12'
+  archived_at: '2019-09-13'
 fluent-plugin-stdin:
   homepage_uri: https://github.com/repeatedly/fluent-plugin-stdin
   vcs: https://github.com/repeatedly/fluent-plugin-stdin
@@ -2177,9 +2177,9 @@ fluent-plugin-tail-ex-rotate:
   homepage_uri: https://github.com/ymizushi/fluent-plugin-tail-ex-rotate
   vcs: https://github.com/ymizushi/fluent-plugin-tail-ex-rotate
   ci: travis
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2017-07-19'
+  archived_at: '2022-09-26'
 fluent-plugin-qqwry:
   homepage_uri: https://github.com/fakechris/fluent-plugin-qqwry
   vcs: https://github.com/fakechris/fluent-plugin-qqwry
@@ -2204,8 +2204,8 @@ fluent-plugin-viki:
   vcs: https://github.com/viki-org/fluent-plugin-viki-output
   archived: true
   ci: false
-  checked_at: '2025-06-13'
-  archived_at: '2017-01-12'
+  checked_at: '2025-06-16'
+  archived_at: '2024-02-22'
 fluent-plugin-aliyunoss:
   homepage_uri: https://github.com/899/fluent-plugin-aliyunoss
   vcs: https://github.com/899/fluent-plugin-aliyunoss
@@ -2255,9 +2255,9 @@ fluent-plugin-juniper-telemetry:
   homepage_uri: https://github.com/JNPRAutomate/fluentd-plugin-juniper-telemetry
   vcs: https://github.com/JNPRAutomate/fluentd-plugin-juniper-telemetry
   ci: travis
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2018-12-12'
+  archived_at: '2024-07-19'
 fluent-plugin-out_chatwork:
   homepage_uri: https://github.com/sue445/fluent-plugin-out_chatwork
   vcs: https://github.com/sue445/fluent-plugin-out_chatwork
@@ -2342,9 +2342,9 @@ fluent-plugin-filter-object-flatten:
   homepage_uri: https://github.com/winebarrel/fluent-plugin-filter-object-flatten
   vcs: https://github.com/winebarrel/fluent-plugin-filter-object-flatten
   ci: travis
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2017-10-30'
+  archived_at: '2024-08-19'
 fluent-plugin-sforce:
   homepage_uri: https://github.com/tzmfreedom/fluent-plugin-sforce
   vcs: https://github.com/tzmfreedom/fluent-plugin-sforce
@@ -2381,9 +2381,9 @@ fluent-plugin-kvp-parser:
   homepage_uri: https://github.com/mosuka/fluent-plugin-kvp-parser
   vcs: https://github.com/mosuka/fluent-plugin-kvp-parser
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2017-06-16'
+  archived_at: '2020-05-01'
 fluent-plugin-fortigate-log-parser:
   homepage_uri: https://github.com/yteraoka/fluent-plugin-fortigate-log-parser
   vcs: https://github.com/yteraoka/fluent-plugin-fortigate-log-parser
@@ -2403,9 +2403,9 @@ fluent-plugin-idobata:
   homepage_uri: https://github.com/bash0C7/fluent-plugin-idobata
   vcs: https://github.com/bash0C7/fluent-plugin-idobata
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2016-01-11'
+  archived_at: '2020-03-22'
 fluent-plugin-influxdb_metrics:
   homepage_uri: https://github.com/lxfontes/fluent-plugin-influxdb_metrics
   vcs: https://github.com/lxfontes/fluent-plugin-influxdb_metrics
@@ -2499,9 +2499,9 @@ fluent-plugin-statsite:
   homepage_uri: https://github.com/choplin/fluent-plugin-statsite
   vcs: https://github.com/choplin/fluent-plugin-statsite
   ci: travis
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2014-08-15'
+  archived_at: '2023-05-19'
 fluent-plugin-lazy-json-parser:
   homepage_uri: https://github.com/mathpl/fluent-plugin-lazy-json-parser
   vcs: https://github.com/mathpl/fluent-plugin-lazy-json-parser
@@ -2541,7 +2541,7 @@ fluent-plugin-kube-events-timestamp:
   homepage_uri: https://github.com/banzaicloud/fluentd-filter-kube-events-timestamp
   vcs: https://github.com/banzaicloud/fluentd-filter-kube-events-timestamp
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
   archived_at: '2023-02-15'
 fluent-plugin-out-kivera:
@@ -2655,9 +2655,9 @@ fluent-plugin-riak:
   homepage_uri: https://github.com/kuenishi/fluent-plugin-riak
   vcs: https://github.com/kuenishi/fluent-plugin-riak
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2014-05-19'
+  archived_at: '2020-05-12'
 fluent-plugin-snowplow:
   homepage_uri: http://www.getninjas.com.br
 fluent-plugin-sumologic-2:
@@ -2704,9 +2704,9 @@ fluent-plugin-protocols-filter:
   homepage_uri: https://github.com/airforon/fluent-plugin-protocols-filter
   vcs: https://github.com/airforon/fluent-plugin-protocols-filter
   ci: travis
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2017-05-03'
+  archived_at: '2020-10-13'
 fluent-plugin-out-falcon:
   homepage_uri: https://github.com/tsingakbar/fluent-plugin-out-falcon
   vcs: https://github.com/tsingakbar/fluent-plugin-out-falcon
@@ -2735,9 +2735,9 @@ fluent-plugin-azuremonitormetrics:
   homepage_uri: https://github.com/Azure/fluent-plugin-azuremonitormetrics
   vcs: https://github.com/Azure/fluent-plugin-azuremonitormetrics
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2020-02-29'
+  archived_at: '2020-12-20'
 fluent-plugin-formatter_simple_tsv:
   homepage_uri: https://github.com/cosmo0920/fluent-plugin-formatter_simple_tsv
   vcs: https://github.com/cosmo0920/fluent-plugin-formatter_simple_tsv
@@ -2824,9 +2824,9 @@ fluent-plugin-explode_filter:
   homepage_uri: https://github.com/JonathanSerafini/fluent-plugin-explode_filter
   vcs: https://github.com/JonathanSerafini/fluent-plugin-explode_filter
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2019-09-12'
+  archived_at: '2019-09-13'
 fluent-plugin-mysql-load:
   homepage_uri: https://github.com/fukuiretu/fluent-plugin-mysql-load
   vcs: https://github.com/fukuiretu/fluent-plugin-mysql-load
@@ -3094,9 +3094,9 @@ fluent-plugin-record-sort:
   homepage_uri: https://github.com/sampointer/fluent-plugin-record-sort
   vcs: https://github.com/sampointer/fluent-plugin-record-sort
   ci: circleci
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2018-08-07'
+  archived_at: '2020-12-30'
 fluent-plugin-buffered-filter:
   homepage_uri: https://bitbucket.org/winebarrel/fluent-plugin-buffered-filter
 fluent-plugin-newrelictransform:
@@ -3178,9 +3178,9 @@ fluent-plugin-viaq_docker_audit_log_parser:
   homepage_uri: https://github.com/viaq/fluent-plugin-viaq_docker_audit_log_parser
   vcs: https://github.com/viaq/fluent-plugin-viaq_docker_audit_log_parser
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2017-12-14'
+  archived_at: '2023-10-05'
 fluent-plugin-mssql:
   homepage_uri: http://github.com/htgc/fluent-plugin-mssql/fork
 fluent-plugin-azureoms:
@@ -3320,9 +3320,9 @@ fluent-plugin-xymon:
   homepage_uri: https://github.com/bash0C7/fluent-plugin-xymon
   vcs: https://github.com/bash0C7/fluent-plugin-xymon
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2016-01-11'
+  archived_at: '2020-03-22'
 fluent-plugin-hekk_redshift:
   homepage_uri: https://github.com/hekk/fluent-plugin-redshift
   vcs: https://github.com/hekk/fluent-plugin-redshift
@@ -3342,9 +3342,9 @@ fluent-plugin-combiner:
   homepage_uri: https://github.com/karahiyo/fluent-plugin-combiner
   vcs: https://github.com/karahiyo/fluent-plugin-combiner
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2013-12-17'
+  archived_at: '2022-04-05'
 fluent-plugin-bunyan:
   homepage_uri: https://github.com/gildas/fluent-plugin-bunyan
   vcs: https://github.com/gildas/fluent-plugin-bunyan
@@ -3400,9 +3400,9 @@ fluent-plugin-resolv-filter:
   homepage_uri: https://github.com/airforon/fluent-plugin-resolv-filter
   vcs: https://github.com/airforon/fluent-plugin-resolv-filter
   ci: travis
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2017-05-03'
+  archived_at: '2020-10-13'
 fluent-plugin-rancher:
   homepage_uri: https://github.com/we87/fluent-plugin-rancher
   vcs: https://github.com/we87/fluent-plugin-rancher
@@ -3442,9 +3442,9 @@ fluent-plugin-splunkapi-ssln:
   homepage_uri: https://github.com/kbrimble/fluent-plugin-splunkapi
   vcs: https://github.com/kbrimble/fluent-plugin-splunkapi
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2014-05-21'
+  archived_at: '2023-01-27'
 fluent-plugin-site24x7:
   homepage_uri: https://github.com/site24x7/fluent-plugin-site24x7
   vcs: https://github.com/site24x7/fluent-plugin-site24x7
@@ -3688,9 +3688,9 @@ fluent-plugin-slackrtm:
   homepage_uri: https://github.com/tarata/fluent-plugin-slackrtm
   vcs: https://github.com/tarata/fluent-plugin-slackrtm
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2019-03-13'
+  archived_at: '2020-04-22'
 fluent-plugin-clickhouse-output:
   homepage_uri: https://github.com/amlivedn/fluentd-plugin-clickhouse-output
   vcs: false
@@ -3807,9 +3807,9 @@ fluent-plugin-wire-protocol-compat:
   homepage_uri: https://github.com/bitex-la/fluent-plugin-wire-protocol-compat
   vcs: https://github.com/bitex-la/fluent-plugin-wire-protocol-compat
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2016-04-14'
+  archived_at: '2022-05-20'
 fluent-plugin-threshold:
   homepage_uri: https://github.com/takyoshi/fluent-plugin-threshold
   vcs: https://github.com/takyoshi/fluent-plugin-threshold
@@ -3858,14 +3858,14 @@ fluent-plugin-http_forward:
   homepage_uri: https://github.com/JonathanSerafini/fluent-plugin-http_forward
   vcs: https://github.com/JonathanSerafini/fluent-plugin-http_forward
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2016-06-08'
+  archived_at: '2019-09-13'
 fluent-plugin-json-transform_ex:
   homepage_uri: https://github.com/fabasoad/fluent-plugin-json-transform_ex
   vcs: https://github.com/fabasoad/fluent-plugin-json-transform_ex
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
   archived_at: '2020-03-19'
 fluent-plugin-mongo-typed:
@@ -4006,9 +4006,9 @@ fluent-plugin-query-fingerprint:
   homepage_uri: https://github.com/genkami/fluent-plugin-query-fingerprint
   vcs: https://github.com/genkami/fluent-plugin-query-fingerprint
   ci: github
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2024-09-26'
+  archived_at: '2025-03-28'
 fluent-plugin-imkayac:
   homepage_uri: https://github.com/fujiwara/fluent-plugin-imkayac
   vcs: https://github.com/fujiwara/fluent-plugin-imkayac
@@ -4054,9 +4054,9 @@ fluent-plugin-heroku-http:
   homepage_uri: https://github.com/ApplauseOSS/fluent-plugin-heroku-http
   vcs: https://github.com/ApplauseOSS/fluent-plugin-heroku-http
   ci: travis
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2022-04-28'
+  archived_at: '2023-07-07'
 fluent-plugin-axlsx:
   homepage_uri: https://github.com/katsyoshi/fluent-plugin-axlsx
   vcs: https://github.com/katsyoshi/fluent-plugin-axlsx
@@ -4139,9 +4139,9 @@ fluent-plugin-http-list:
   homepage_uri: https://github.com/m3dev/fluent-plugin-http-list
   vcs: https://github.com/m3dev/fluent-plugin-http-list
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2014-06-13'
+  archived_at: '2019-10-26'
 fluent-plugin-redis-pubsub:
   homepage_uri: http://github.com/freddiefujiwara/fluent-plugin-redis-pubsub
 fluent-plugin-jopentsdb:
@@ -4183,9 +4183,9 @@ fluent-plugin-stathat:
   homepage_uri: https://github.com/f440/fluent-plugin-stathat/
   vcs: https://github.com/f440/fluent-plugin-stathat/
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2014-02-08'
+  archived_at: '2022-02-16'
 fluent-plugin-onlineuser:
   homepage_uri: https://github.com/lanyuyang/fluent-plugin-onlineuser
   vcs: false
@@ -4231,16 +4231,16 @@ fluent-plugin-zoomdata:
   homepage_uri: https://github.com/johtani/fluent-plugin-zoomdata
   vcs: https://github.com/johtani/fluent-plugin-zoomdata
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2014-02-08'
+  archived_at: '2020-03-27'
 fluent-plugin-dashing:
   homepage_uri: https://github.com/bash0C7/fluent-plugin-dashing
   vcs: https://github.com/bash0C7/fluent-plugin-dashing
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2016-01-11'
+  archived_at: '2020-03-22'
 fluent-plugin-mysql_explain:
   homepage_uri: https://github.com/kikumoto/fluent-plugin-mysql_explain
   vcs: https://github.com/kikumoto/fluent-plugin-mysql_explain
@@ -4311,16 +4311,16 @@ fluent-plugin-ruby_one_liner:
   homepage_uri: https://github.com/bash0C7/fluent-plugin-ruby_one_liner
   vcs: https://github.com/bash0C7/fluent-plugin-ruby_one_liner
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2016-01-11'
+  archived_at: '2020-03-22'
 fluent-plugin-config_reloader:
   homepage_uri: https://github.com/bash0C7/fluent-plugin-config_reloader
   vcs: https://github.com/bash0C7/fluent-plugin-config_reloader
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2016-01-11'
+  archived_at: '2020-03-22'
 fluent-plugin-scenario-manager:
   homepage_uri: https://github.com/WallyNegima/scenario-manager-plugin
   vcs: https://github.com/WallyNegima/scenario-manager-plugin
@@ -4337,16 +4337,16 @@ fluent-plugin-tumblr:
   homepage_uri: https://github.com/bash0C7/fluent-plugin-tumblr
   vcs: https://github.com/bash0C7/fluent-plugin-tumblr
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2016-01-11'
+  archived_at: '2020-03-22'
 fluent-plugin-imagefile:
   homepage_uri: https://github.com/bash0C7/fluent-plugin-imagefile
   vcs: https://github.com/bash0C7/fluent-plugin-imagefile
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2016-01-11'
+  archived_at: '2020-03-22'
 fluent-plugin-nfct-parser:
   homepage_uri: https://github.com/sorah/fluent-plugin-nfct-parser
   vcs: https://github.com/sorah/fluent-plugin-nfct-parser
@@ -4366,9 +4366,9 @@ fluent-plugin-rewriteimage:
   homepage_uri: https://github.com/bash0C7/fluent-plugin-rewriteimage
   vcs: https://github.com/bash0C7/fluent-plugin-rewriteimage
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2016-01-11'
+  archived_at: '2020-03-22'
 fluent-plugin-s3-arrow:
   homepage_uri: https://github.com/red-data-tools/fluent-plugin-s3-arrow
   vcs: https://github.com/red-data-tools/fluent-plugin-s3-arrow
@@ -4450,9 +4450,9 @@ fluent-plugin-msgpack-parser:
   homepage_uri: https://github.com/bitex-la/fluent-plugin-msgpack-parser
   vcs: https://github.com/bitex-la/fluent-plugin-msgpack-parser
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2020-07-03'
+  archived_at: '2022-05-20'
 fluent-plugin-gimbal-out-http:
   homepage_uri: https://github.com/PaeDae/fluent-plugin-gimbal-out-http
   vcs: https://github.com/PaeDae/fluent-plugin-gimbal-out-http
@@ -4618,9 +4618,9 @@ fluent-plugin-filter-jq:
   homepage_uri: https://github.com/winebarrel/fluent-plugin-filter-jq
   vcs: https://github.com/winebarrel/fluent-plugin-filter-jq
   ci: travis
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2017-10-26'
+  archived_at: '2024-08-19'
 fluent-plugin-out_apache_log_format:
   homepage_uri: https://bitbucket.org/jmoratilla/fluent-plugin-out_apache_log_format
 fluent-plugin-sqs-tarjei:
@@ -4770,9 +4770,9 @@ fluent-plugin-filter-twitterurl:
   homepage_uri: https://github.com/tokyohomesoc/fluent-plugin-filter-twitterurl
   vcs: https://github.com/tokyohomesoc/fluent-plugin-filter-twitterurl
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2017-05-02'
+  archived_at: '2020-10-13'
 fluent-plugin-out-kaboom:
   homepage_uri: https://github.com/PaeDae/fluent-plugin-out-kaboom
   vcs: https://github.com/PaeDae/fluent-plugin-out-kaboom
@@ -4945,9 +4945,9 @@ fluent-plugin-test:
   homepage_uri: https://github.com/JonathanSerafini/fluent-plugin-mutate_filter
   vcs: https://github.com/JonathanSerafini/fluent-plugin-mutate_filter
   ci: false
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2019-09-12'
+  archived_at: '2019-09-13'
 fluent-plugin-azure-storage-tables:
   homepage_uri: https://github.com/Shell32-Natsu/fluent-plugin-azuretables
   vcs: https://github.com/Shell32-Natsu/fluent-plugin-azuretables
@@ -4981,9 +4981,9 @@ fluent-plugin-splunk-http-eventcollector-memb:
   homepage_uri: https://github.com/brycied00d/fluent-plugin-splunk-http-eventcollector
   vcs: https://github.com/brycied00d/fluent-plugin-splunk-http-eventcollector
   ci: travis
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2020-03-20'
+  archived_at: '2020-03-21'
 fluent-plugin-filter-geoip2:
   homepage_uri: https://github.com/OlehPalanskyi/fluent-plugin-filter-geoip2
   vcs: https://github.com/OlehPalanskyi/fluent-plugin-filter-geoip2
@@ -5035,9 +5035,9 @@ fluent-plugin-splunk-http-eventcollector-test:
   homepage_uri: https://github.com/brycied00d/fluent-plugin-splunk-http-eventcollector
   vcs: https://github.com/brycied00d/fluent-plugin-splunk-http-eventcollector
   ci: travis
-  checked_at: '2025-06-13'
+  checked_at: '2025-06-16'
   archived: true
-  archived_at: '2020-03-20'
+  archived_at: '2020-03-21'
 fluent-plugin-slack-stakater:
   homepage_uri: https://github.com/stakater/fluent-plugin-slack
   vcs: https://github.com/stakater/fluent-plugin-slack
