@@ -45,11 +45,11 @@ plugins = File.open(plugins_json_path) { |file| JSON.parse(file.read) }
 checked = File.open(checked_yaml_path) { |file| YAML.safe_load(file.read) }
 
 plugins.each do |plugin|
-  plugin_name, value = plugin
+  plugin_name = plugin["name"]
   unless checked[plugin_name]
     # import missing plugins
     @logger.warn("<#{plugin_name}> is missing, import it")
-    entry = value.reject { |key, value| key == "name" }
+    entry = plugin.reject { |key, value| key == "name" }
     if entry["source_code_uri"].nil?
       if entry["homepage_uri"].nil? or entry["homepage_uri"].empty?
         entry["vcs"] = false
