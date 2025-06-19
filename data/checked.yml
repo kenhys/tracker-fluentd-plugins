@@ -47,7 +47,7 @@ fluent-plugin-aws-elasticsearch-service:
   homepage_uri: https://github.com/atomita/fluent-plugin-aws-elasticsearch-service
   vcs: https://github.com/atomita/fluent-plugin-aws-elasticsearch-service
   ci: false
-  note: signer v4 supported in uken/f-p-elasticsearch?
+  comment: signer v4 supported in uken/f-p-elasticsearch?
   checked_at: '2025-06-13'
 fluent-plugin-gcloud-pubsub-custom:
   homepage_uri: https://github.com/mia-0032/fluent-plugin-gcloud-pubsub-custom
@@ -87,7 +87,7 @@ fluent-plugin-kinesis:
 fluent-plugin-tag-normaliser:
   homepage_uri: https://github.com/banzaicloud/fluent-plugin-tag-normaliser
   vcs: https://github.com/kube-logging/fluent-plugin-tag-normaliser
-  note: Moved from https://github.com/banzaicloud/fluent-plugin-tag-normaliser, banzaicloud/fluent-plugin-tag-normaliser
+  comment: Moved from https://github.com/banzaicloud/fluent-plugin-tag-normaliser, banzaicloud/fluent-plugin-tag-normaliser
     was archived.
   ci: false
   checked_at: '2025-06-13'
@@ -109,7 +109,7 @@ fluent-plugin-concat:
 fluent-plugin-forest:
   homepage_uri: https://github.com/tagomoris/fluent-plugin-forest
   vcs: https://github.com/tagomoris/fluent-plugin-forest
-  note: Not archived yet.
+  comment: Not archived yet.
   ci: false
   obsolete: true
   checked_at: '2025-06-13'
@@ -126,7 +126,7 @@ fluent-plugin-newrelic:
 fluent-plugin-splunk-hec:
   homepage_uri: https://github.com/splunk/fluent-plugin-splunk-hec
   vcs: https://github.com/splunk/fluent-plugin-splunk-hec
-  note: Not archived yet, but EOS. It should be deprecated.
+  comment: Not archived yet, but EOS. It should be deprecated.
   ci: github
   checked_at: '2025-06-13'
 fluent-plugin-gelf-hs:
@@ -176,7 +176,7 @@ fluent-plugin-grafana-loki-licence-fix:
 fluent-plugin-systemd:
   homepage_uri: https://github.com/reevoo/fluent-plugin-systemd
   vcs: https://github.com/fluent-plugins-nursery/fluent-plugin-systemd
-  note: homepage should be updated
+  comment: homepage should be updated
   ci: github
   checked_at: '2025-06-13'
 fluent-plugin-parser-cri:
@@ -187,7 +187,7 @@ fluent-plugin-parser-cri:
 fluent-plugin-script:
   homepage_uri: https://github.com/SNakano/fluent-plugin-script
   vcs: https://github.com/SNakano/fluent-plugin-script
-  note: built-in exec is enough?
+  comment: built-in exec is enough?
   ci: false
   checked_at: '2025-06-13'
 fluent-plugin-coralogix:
@@ -220,14 +220,14 @@ fluent-plugin-flatten-hash:
 fluent-plugin-grep:
   homepage_uri: https://github.com/sonots/fluent-plugin-grep
   vcs: https://github.com/sonots/fluent-plugin-grep
-  note: use built-in filter-grep
+  comment: use built-in filter-grep
   obsolete: true
   ci: false
   checked_at: '2025-06-13'
 fluent-plugin-parser:
   homepage_uri: https://github.com/tagomoris/fluent-plugin-parser
   vcs: https://github.com/tagomoris/fluent-plugin-parser
-  note: use built-in parser
+  comment: use built-in parser
   obsolete: true
   ci: false
   checked_at: '2025-06-13'
@@ -400,7 +400,7 @@ fluent-plugin-nginx-error-multiline:
 fluent-plugin-label-router:
   homepage_uri: https://github.com/banzaicloud/fluent-plugin-label-router
   vcs: https://github.com/kube-logging/fluent-plugin-label-router
-  note: Moved from https://github.com/banzaicloud/fluent-plugin-label-router
+  comment: Moved from https://github.com/banzaicloud/fluent-plugin-label-router
   ci: false
   checked_at: '2025-06-13'
 fluent-plugin-dict-map:
@@ -431,7 +431,7 @@ fluent-plugin-datacounter:
 fluent-plugin-jq:
   homepage_uri: https://github.com/Gimi/fluent-plugin-jq
   vcs: https://github.com/zliang-min/fluent-plugin-jq
-  note: Moved from https://github.com/Gimi/fluent-plugin-jq
+  comment: Moved from https://github.com/Gimi/fluent-plugin-jq
   ci: travis
   checked_at: '2025-06-13'
 fluent-plugin-gelf:
@@ -441,7 +441,7 @@ fluent-plugin-gelf:
 fluent-plugin-syslog_rfc5424:
   homepage_uri: https://github.com/cloudfoundry/fluent-plugin-syslog_rfc5424
   vcs: https://github.com/cloudfoundry/fluent-plugin-syslog_rfc5424
-  note: rfc5424 should be supported in built-in syslog
+  comment: rfc5424 should be supported in built-in syslog
   ci: travis
   checked_at: '2025-06-13'
 fluent-plugin-webhdfs:
@@ -452,7 +452,7 @@ fluent-plugin-webhdfs:
 fluent-plugin-kubernetes-objects:
   homepage_uri: https://github.com/splunk/fluent-plugin-kubernetes-objects
   vcs: https://github.com/splunk/fluent-plugin-kubernetes-objects
-  note: End of support on January 1, 2024
+  comment: End of support on January 1, 2024
   obsolete: true
   ci: github
   checked_at: '2025-06-13'
@@ -464,7 +464,7 @@ fluent-plugin-http-healthcheck:
 fluent-plugin-multiprocess:
   homepage_uri: https://github.com/fluent/fluent-plugin-multiprocess
   vcs: https://github.com/fluent/fluent-plugin-multiprocess
-  note: for Fluentd v0.x
+  comment: for Fluentd v0.x
   ci: false
   checked_at: '2025-06-13'
 fluent-plugin-loggly:
@@ -569,7 +569,7 @@ fluent-plugin-genhashvalue:
   checked_at: '2025-06-13'
 fluent-plugin-tail-multiline:
   homepage_uri: http://github.com/tomohisaota/fluent-plugin-tail-multiline
-  note: Merged into built-in in_tail
+  comment: Merged into built-in in_tail
   obsolete: true
   ci: travis
   checked_at: '2025-05-17'
@@ -680,7 +680,7 @@ fluent-plugin-azureeventhubs-batched:
 fluent-plugin-file-alternative:
   homepage_uri: https://github.com/tagomoris/fluent-plugin-file-alternative
   vcs: https://github.com/tagomoris/fluent-plugin-file-alternative
-  note: Use built-in out_file
+  comment: Use built-in out_file
   obsolete: true
   ci: false
   checked_at: '2025-06-13'
@@ -1405,7 +1405,7 @@ fluent-plugin-postgresql-csvlog:
 fluent-plugin-keep-forward:
   homepage_uri: https://github.com/sonots/fluent-plugin-keep-forward
   vcs: https://github.com/sonots/fluent-plugin-keep-forward
-  note: v0.14 is not supported yet
+  comment: v0.14 is not supported yet
   ci: travis
   checked_at: '2025-06-13'
 fluent-plugin-honeycomb:
@@ -1486,7 +1486,7 @@ fluent-plugin-graylog:
   checked_at: '2025-05-24'
 fluent-plugin-light-core:
   homepage_uri: https://git.alphabets.cn/light/fluent-plugin-light-core
-  note: https://git.alphabets.cn/light/fluent-plugin-light-core is missing
+  comment: https://git.alphabets.cn/light/fluent-plugin-light-core is missing
   vcs: false
   checked_at: '2025-05-24'
 fluent-plugin-loomsystems:
@@ -4109,7 +4109,7 @@ fluent-plugin-monitor-agent-detail:
 fluent-plugin-tcp-socket:
   homepage_uri: https://github.com/farchanjo
   vcs: https://github.com/farchanjo/fluent-plugin-tcp-socket
-  note: Missing vcs field on rubygems.org
+  comment: Missing vcs field on rubygems.org
   ci: false
   checked_at: '2025-06-13'
 fluent-plugin-grpc:
@@ -5207,7 +5207,7 @@ fluent-plugin-confluent-avro:
 fluent-plugin-upi-logs:
   homepage_uri: https://github.com/caraml-dev/timber/logwriter/fluent-plugin-upi-logs
   vcs: https://github.com/caraml-dev/timber/logwriter/fluent-plugin-upi-logs
-  note: Part of timber logwriter
+  comment: Part of timber logwriter
   ci: false
   checked_at: '2025-05-31'
 fluent-plugin-perf-tools:
@@ -5426,16 +5426,16 @@ fluent-plugin-jllog:
 fluent-plugin-ldap-client:
   homepage_uri:
   vcs: false
-  note: Only rubygems
+  comment: Only rubygems
   checked_at: '2025-05-31'
 fluent-plugin-rabbitmq-pbk:
   homepage_uri:
   vcs: false
-  note: Only rubygems
+  comment: Only rubygems
   checked_at: '2025-05-31'
 fluent-plugin-parser_cefalt:
   homepage_uri:
-  note: Only rubygems. It might be https://github.com/sparkmark/fluent-plugin-parser_cefalt
+  comment: Only rubygems. It might be https://github.com/sparkmark/fluent-plugin-parser_cefalt
   vcs: https://github.com/sparkmark/fluent-plugin-parser_cefalt
   ci: travis
   checked_at: '2025-06-13'
