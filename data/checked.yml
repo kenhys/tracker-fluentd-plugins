@@ -2,10 +2,12 @@
 fluent-plugin-s3:
   homepage_uri: https://github.com/fluent/fluent-plugin-s3
   vcs: https://github.com/fluent/fluent-plugin-s3
+  ci: github
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-kubernetes_metadata_filter:
   homepage_uri: https://github.com/fabric8io/fluent-plugin-kubernetes_metadata_filter
   vcs: https://github.com/fabric8io/fluent-plugin-kubernetes_metadata_filter
@@ -13,6 +15,8 @@ fluent-plugin-kubernetes_metadata_filter:
   source_code_uri:
   obsolete:
   note:
+  ci: github
+  checked_at: '2025-06-19'
 fluent-plugin-elasticsearch:
   homepage_uri: https://github.com/uken/fluent-plugin-elasticsearch
   vcs: https://github.com/uken/fluent-plugin-elasticsearch
@@ -20,6 +24,8 @@ fluent-plugin-elasticsearch:
   source_code_uri:
   obsolete:
   note:
+  ci: github
+  checked_at: '2025-06-19'
 fluent-plugin-record-modifier:
   homepage_uri: https://github.com/repeatedly/fluent-plugin-record-modifier
   vcs: https://github.com/repeatedly/fluent-plugin-record-modifier
@@ -27,6 +33,8 @@ fluent-plugin-record-modifier:
   source_code_uri:
   obsolete:
   note:
+  ci: github
+  checked_at: '2025-06-19'
 fluent-plugin-rewrite-tag-filter:
   homepage_uri: https://github.com/fluent/fluent-plugin-rewrite-tag-filter
   vcs: https://github.com/fluent/fluent-plugin-rewrite-tag-filter
@@ -35,22 +43,26 @@ fluent-plugin-rewrite-tag-filter:
   source_code_uri: ''
   obsolete:
   note:
+  ci: github
+  checked_at: '2025-06-19'
 fluent-plugin-ignore-filter:
   homepage_uri: https://github.com/bungoume/fluent-plugin-ignore-filter
   vcs: https://github.com/bungoume/fluent-plugin-ignore-filter
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-kinesis-aggregation:
   homepage_uri: https://github.com/atlassian/fluent-plugin-kinesis-aggregation
   vcs: https://github.com/atlassian/fluent-plugin-kinesis-aggregation
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-grafana-loki:
   homepage_uri: https://github.com/grafana/loki/
   vcs: false
@@ -58,6 +70,7 @@ fluent-plugin-grafana-loki:
   obsolete:
   note:
   updated_at: '2025-06-19'
+  checked_at: '2025-06-19'
 fluent-plugin-prometheus:
   homepage_uri: https://github.com/fluent/fluent-plugin-prometheus
   vcs: https://github.com/fluent/fluent-plugin-prometheus
@@ -66,6 +79,7 @@ fluent-plugin-prometheus:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-kafka:
   homepage_uri: https://github.com/fluent/fluent-plugin-kafka
   vcs: https://github.com/fluent/fluent-plugin-kafka
@@ -74,6 +88,7 @@ fluent-plugin-kafka:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-aws-elasticsearch-service:
   homepage_uri: https://github.com/atomita/fluent-plugin-aws-elasticsearch-service
   vcs: https://github.com/atomita/fluent-plugin-aws-elasticsearch-service
@@ -83,6 +98,7 @@ fluent-plugin-aws-elasticsearch-service:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-gcloud-pubsub-custom:
   homepage_uri: https://github.com/mia-0032/fluent-plugin-gcloud-pubsub-custom
   vcs: https://github.com/mia-0032/fluent-plugin-gcloud-pubsub-custom
@@ -91,6 +107,7 @@ fluent-plugin-gcloud-pubsub-custom:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-opensearch:
   homepage_uri: https://github.com/fluent/fluent-plugin-opensearch
   vcs: https://github.com/fluent/fluent-plugin-opensearch
@@ -99,14 +116,16 @@ fluent-plugin-opensearch:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-ec2-metadata:
   homepage_uri: https://github.com/takus/fluent-plugin-ec2-metadata
   vcs: https://github.com/takus/fluent-plugin-ec2-metadata
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-cloudwatch-logs:
   homepage_uri: https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs
   vcs: https://github.com/fluent-plugins-nursery/fluent-plugin-cloudwatch-logs
@@ -115,6 +134,7 @@ fluent-plugin-cloudwatch-logs:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-grok-parser:
   homepage_uri: https://github.com/fluent/fluent-plugin-grok-parser
   vcs: https://github.com/fluent/fluent-plugin-grok-parser
@@ -123,6 +143,7 @@ fluent-plugin-grok-parser:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-out-http:
   homepage_uri: https://github.com/fluent-plugins-nursery/fluent-plugin-out-http
   vcs: https://github.com/fluent-plugins-nursery/fluent-plugin-out-http
@@ -131,6 +152,7 @@ fluent-plugin-out-http:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-kinesis:
   homepage_uri: https://github.com/awslabs/aws-fluent-plugin-kinesis
   vcs: https://github.com/awslabs/aws-fluent-plugin-kinesis
@@ -139,6 +161,7 @@ fluent-plugin-kinesis:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-tag-normaliser:
   homepage_uri: https://github.com/banzaicloud/fluent-plugin-tag-normaliser
   vcs: https://github.com/kube-logging/fluent-plugin-tag-normaliser
@@ -149,6 +172,7 @@ fluent-plugin-tag-normaliser:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-mongo:
   homepage_uri: https://github.com/fluent/fluent-plugin-mongo
   vcs: https://github.com/fluent/fluent-plugin-mongo
@@ -157,14 +181,16 @@ fluent-plugin-mongo:
   source_code_uri: https://github.com/fluent/fluent-plugin-mongo
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-geoip-filter:
   homepage_uri: https://github.com/bungoume/fluent-plugin-geoip-filter
   vcs: https://github.com/bungoume/fluent-plugin-geoip-filter
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-concat:
   homepage_uri: https://github.com/fluent-plugins-nursery/fluent-plugin-concat
   vcs: https://github.com/fluent-plugins-nursery/fluent-plugin-concat
@@ -173,23 +199,27 @@ fluent-plugin-concat:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-forest:
   homepage_uri: https://github.com/tagomoris/fluent-plugin-forest
   vcs: https://github.com/tagomoris/fluent-plugin-forest
   comment: Not archived yet.
-  ci: false
+  v0: true
+  ci: travis
   obsolete:
   updated_at: '2025-06-19'
   source_code_uri:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-multi-format-parser:
   homepage_uri: https://github.com/repeatedly/fluent-plugin-multi-format-parser
   vcs: https://github.com/repeatedly/fluent-plugin-multi-format-parser
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-newrelic:
   homepage_uri: https://github.com/newrelic/newrelic-fluentd-output
   vcs: https://github.com/newrelic/newrelic-fluentd-output
@@ -198,6 +228,7 @@ fluent-plugin-newrelic:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-splunk-hec:
   homepage_uri: https://github.com/splunk/fluent-plugin-splunk-hec
   vcs: https://github.com/splunk/fluent-plugin-splunk-hec
@@ -207,6 +238,7 @@ fluent-plugin-splunk-hec:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-gelf-hs:
   homepage_uri: https://github.com/bodhi-space/fluent-plugin-gelf-hs
   vcs: https://github.com/bodhi-space/fluent-plugin-gelf-hs
@@ -215,6 +247,7 @@ fluent-plugin-gelf-hs:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-datadog:
   homepage_uri: http://datadoghq.com
   vcs: https://github.com/DataDog/fluent-plugin-datadog
@@ -223,6 +256,8 @@ fluent-plugin-datadog:
   source_code_uri: https://github.com/DataDog/fluent-plugin-datadog
   obsolete:
   note:
+  comment: source_code_uri should be published
+  checked_at: '2025-06-19'
 fluent-plugin-detect-exceptions:
   homepage_uri: https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions
   vcs: https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions
@@ -231,46 +266,52 @@ fluent-plugin-detect-exceptions:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-throttle:
   homepage_uri: https://github.com/rubrikinc/fluent-plugin-throttle
   vcs: https://github.com/rubrikinc/fluent-plugin-throttle
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-record-reformer:
   homepage_uri: https://github.com/sonots/fluent-plugin-record-reformer
   vcs: https://github.com/sonots/fluent-plugin-record-reformer
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-rename-key:
   homepage_uri: https://github.com/shunwen/fluent-plugin-rename-key
   vcs: https://github.com/shunwen/fluent-plugin-rename-key
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-route:
   homepage_uri: https://github.com/tagomoris/fluent-plugin-route
   vcs: https://github.com/tagomoris/fluent-plugin-route
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-dedot_filter:
   homepage_uri: https://github.com/lunardial/fluent-plugin-dedot_filter
   vcs: https://github.com/lunardial/fluent-plugin-dedot_filter
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-grafana-loki-licence-fix:
   homepage_uri: https://github.com/grafana/loki/
   vcs: false
@@ -278,15 +319,18 @@ fluent-plugin-grafana-loki-licence-fix:
   source_code_uri:
   obsolete:
   note:
+  comment: source_code_uri should be published. What is different from f-p-grafana-loki?
+  checked_at: '2025-06-19'
 fluent-plugin-systemd:
   homepage_uri: https://github.com/reevoo/fluent-plugin-systemd
   vcs: https://github.com/fluent-plugins-nursery/fluent-plugin-systemd
-  comment: homepage should be updated
+  comment: homepage should be updated, See https://github.com/fluent-plugins-nursery/fluent-plugin-systemd/pull/121
   ci: github
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-parser-cri:
   homepage_uri: https://github.com/fluent/fluent-plugin-parser-cri
   vcs: https://github.com/fluent/fluent-plugin-parser-cri
@@ -295,15 +339,17 @@ fluent-plugin-parser-cri:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-script:
   homepage_uri: https://github.com/SNakano/fluent-plugin-script
   vcs: https://github.com/SNakano/fluent-plugin-script
   comment: built-in exec is enough?
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-coralogix:
   homepage_uri: http://www.coralogix.com
   vcs: false
@@ -311,6 +357,7 @@ fluent-plugin-coralogix:
   obsolete:
   note:
   updated_at: '2025-06-19'
+  checked_at: '2025-06-19'
 fluent-plugin-sumologic_output:
   homepage_uri: https://github.com/SumoLogic/fluentd-output-sumologic
   vcs: https://github.com/SumoLogic/fluentd-output-sumologic
@@ -319,6 +366,8 @@ fluent-plugin-sumologic_output:
   source_code_uri:
   obsolete:
   note:
+  comment: API key was embedded in .travis.yml
+  checked_at: '2025-06-19'
 fluent-plugin-google-cloud:
   homepage_uri: https://github.com/GoogleCloudPlatform/fluent-plugin-google-cloud
   vcs: https://github.com/GoogleCloudPlatform/fluent-plugin-google-cloud
@@ -327,6 +376,7 @@ fluent-plugin-google-cloud:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-group-exceptions:
   homepage_uri: https://github.com/GoogleCloudPlatform/fluent-plugin-group-exceptions
   vcs: false
@@ -334,42 +384,48 @@ fluent-plugin-group-exceptions:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-secure-forward:
   homepage_uri: https://github.com/tagomoris/fluent-plugin-secure-forward
   vcs: https://github.com/tagomoris/fluent-plugin-secure-forward
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-flatten-hash:
   homepage_uri: https://github.com/kazegusuri/fluent-plugin-flatten-hash
   vcs: https://github.com/kazegusuri/fluent-plugin-flatten-hash
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-grep:
   homepage_uri: https://github.com/sonots/fluent-plugin-grep
   vcs: https://github.com/sonots/fluent-plugin-grep
   comment: use built-in filter-grep
   obsolete: true
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   note: |
     [grep filter](http://docs.fluentd.org/articles/filter_grep) is now a built-in plugin. Use the built-in plugin instead of installing this plugin.
     Or, [fluent-plugin-filter_where](https://github.com/sonots/fluent-plugin-filter_where) is more useful.
+  checked_at: '2025-06-19'
 fluent-plugin-parser:
   homepage_uri: https://github.com/tagomoris/fluent-plugin-parser
   vcs: https://github.com/tagomoris/fluent-plugin-parser
   comment: use built-in parser
   obsolete:
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   note:
+  v0: true
+  checked_at: '2025-06-19'
 fluent-plugin-serialize-nested-json:
   homepage_uri: https://github.com/ysh7/fluent-plugin-serialize-nested-json
   vcs: https://github.com/ysh7/fluent-plugin-serialize-nested-json
@@ -378,6 +434,7 @@ fluent-plugin-serialize-nested-json:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-slack:
   homepage_uri: https://github.com/sowawa/fluent-plugin-slack
   vcs: https://github.com/sowawa/fluent-plugin-slack
@@ -386,14 +443,17 @@ fluent-plugin-slack:
   source_code_uri:
   obsolete:
   note:
+  v0: true
+  checked_at: '2025-06-19'
 fluent-plugin-sampling-filter:
   homepage_uri: https://github.com/tagomoris/fluent-plugin-sampling-filter
   vcs: https://github.com/tagomoris/fluent-plugin-sampling-filter
-  ci: false
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-input-gelf:
   homepage_uri: https://github.com/MerlinDMC/fluent-plugin-input-gelf
   vcs: https://github.com/MerlinDMC/fluent-plugin-input-gelf
@@ -402,14 +462,17 @@ fluent-plugin-input-gelf:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-geoip:
   homepage_uri: https://github.com/y-ken/fluent-plugin-geoip
   vcs: https://github.com/y-ken/fluent-plugin-geoip
-  ci: github
+  ci: travis
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  comment: no .github/workflows/
+  checked_at: '2025-06-19'
 fluent-plugin-remote_syslog:
   homepage_uri: https://github.com/dlackty/fluent-plugin-remote_syslog
   vcs: https://github.com/fluent-plugins-nursery/fluent-plugin-remote_syslog
@@ -418,6 +481,7 @@ fluent-plugin-remote_syslog:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-rabbitmq:
   homepage_uri: https://github.com/nttcom/fluent-plugin-rabbitmq
   vcs: https://github.com/nttcom/fluent-plugin-rabbitmq
@@ -426,6 +490,7 @@ fluent-plugin-rabbitmq:
   source_code_uri:
   obsolete:
   note:
+  checked_at: '2025-06-19'
 fluent-plugin-bigquery:
   homepage_uri: https://github.com/kaizenplatform/fluent-plugin-bigquery
   vcs: https://github.com/fluent-plugins-nursery/fluent-plugin-bigquery
