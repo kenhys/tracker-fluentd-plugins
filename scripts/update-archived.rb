@@ -102,19 +102,19 @@ plugins = [
 plugins.each_with_index do |plugin, index|
   plugin_name, metadata = plugin
   if checked?(metadata, options)
-    @logger.debug("<#{plugin_name}> was already checked at: #{metadata['checked_at']}")
+    @logger.debug("[#{index+1}/#{plugins.size}] <#{plugin_name}> was already checked at: #{metadata['checked_at']}")
     checked[plugin_name] = metadata
     skip_count += 1
     next
   end
   unless metadata["vcs"]
-    @logger.info("no vcs for <#{plugin_name}>, skip it")
+    @logger.info("[#{index+1}/#{plugins.size}] no vcs for <#{plugin_name}>, skip it")
     checked[plugin_name] = metadata
     no_vcs_count += 1
     next
   end
   if metadata["archived"]
-    @logger.info("skip already archived <#{plugin_name}>")
+    @logger.info("[#{index+1}/#{plugins.size}] skip already archived <#{plugin_name}>")
     checked[plugin_name] = metadata
     archived_count += 1
     next
