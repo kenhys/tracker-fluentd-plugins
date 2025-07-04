@@ -167,8 +167,7 @@ fluent-plugin-tag-normaliser:
   homepage_uri: https://github.com/banzaicloud/fluent-plugin-tag-normaliser
   vcs: https://github.com/kube-logging/fluent-plugin-tag-normaliser
   comments:
-    - Moved from https://github.com/banzaicloud/fluent-plugin-tag-normaliser,
-    banzaicloud/fluent-plugin-tag-normaliser was archived.
+    - Moved from https://github.com/banzaicloud/fluent-plugin-tag-normaliser, banzaicloud/fluent-plugin-tag-normaliser was archived.
   ci: false
   updated_at: '2025-06-19'
   source_code_uri:
