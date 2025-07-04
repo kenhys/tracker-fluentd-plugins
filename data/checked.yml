@@ -6307,7 +6307,7 @@ fluent-plugin-sentry-http:
   updated_at: '2025-06-19'
   vcs: https://github.com/cooldaemon/fluent-plugin-sentry-http
   ci: travis
-  updated_at: '2025-07-04'
+  checked_at: '2025-07-04'
 fluent-plugin-filter_codec:
   homepage_uri: https://github.com/Neozaru/fluent-plugin-filter_codec.git
   vcs: https://github.com/Neozaru/fluent-plugin-filter_codec.git
