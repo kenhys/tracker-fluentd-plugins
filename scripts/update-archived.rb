@@ -152,7 +152,7 @@ plugins.each_with_index do |plugin, index|
         @logger.info("REST access for <#{metadata['vcs']}> is not supported")
       end
     end
-    metadata["checked_at"] = Time.now.strftime("%Y-%m-%d")
+    metadata["updated_at"] = Time.now.strftime("%Y-%m-%d")
   rescue Timeout::Error
     @logger.info("Invalid VCS: <#{metadata['vcs']}> for <#{plugin_name}>, skip it")
     metadata["vcs"] = false
