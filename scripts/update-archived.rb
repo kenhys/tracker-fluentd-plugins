@@ -45,6 +45,8 @@ plugins = File.open(checked_yaml_path) { |file| YAML.safe_load(file.read) }
 
 
 def checked?(metadata, options={})
+  return true if metadata["archived"]
+
   return false unless metadata["checked_at"]
   if Time.parse(metadata["checked_at"]) < (Time.now - options[:check_interval])
     false
