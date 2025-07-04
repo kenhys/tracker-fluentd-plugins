@@ -31,6 +31,9 @@ opt.on("--log-level LEVEL", "Specify max processing GEMS") { |v|
     options[:log_level] = Logger::INFO
   end
 }
+opt.on("--diff OTHER_YAML", "Specify additional target YAML files which is compared with") { |v|
+  options[:diff] = v
+}
 opt.parse!(ARGV)
 
 @logger = Logger.new(STDOUT)
@@ -43,6 +46,18 @@ checked_yaml_path = File.expand_path(File.join(__dir__, "../data/checked.yml"))
 
 plugins = File.open(checked_yaml_path) { |file| YAML.safe_load(file.read) }
 
+if options[:diff]
+  other_yaml_path = File.expand_path(File.join(__dir__, "../data/checked.yml"))
+  other_plugins = File.open(other_yaml_path) { |file| YAML.safe_load(file.read) }
+  plugins.keys.each do |plugin_name|
+    base = plugins[plugin_name].except(:updated_at)
+    other = other_plugins[plugin_name].except(:updated_at)
+    unless (other.to_a - base.to_a).empty?
+      p (other.to_a - base.to_a)
+    end
+  end
+  exit 0
+end
 
 def checked?(metadata, options={})
   return true if metadata["archived"]
