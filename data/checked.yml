@@ -65,12 +65,12 @@ fluent-plugin-kinesis-aggregation:
   checked_at: '2025-06-19'
 fluent-plugin-grafana-loki:
   homepage_uri: https://github.com/grafana/loki/
-  vcs: false
+  vcs: https://github.com/grafana/loki/tree/main/clients/cmd/fluentd
   source_code_uri:
   obsolete:
   note:
   updated_at: '2025-06-19'
-  checked_at: '2025-06-19'
+  checked_at: '2025-07-07'
 fluent-plugin-prometheus:
   homepage_uri: https://github.com/fluent/fluent-plugin-prometheus
   vcs: https://github.com/fluent/fluent-plugin-prometheus
