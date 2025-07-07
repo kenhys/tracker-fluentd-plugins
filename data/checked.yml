@@ -66,6 +66,7 @@ fluent-plugin-kinesis-aggregation:
 fluent-plugin-grafana-loki:
   homepage_uri: https://github.com/grafana/loki/
   vcs: https://github.com/grafana/loki/tree/main/clients/cmd/fluentd
+  skip_vcs_check: true
   source_code_uri:
   obsolete:
   note:
