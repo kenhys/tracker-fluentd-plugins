@@ -9177,13 +9177,13 @@ fluent-plugin-bigquery-test:
   obsolete:
   note:
 fluent-plugin-geoip-kk:
-  homepage_uri:
+  homepage_uri: https://github.com/kevin197011/fluent-plugin-geoip-kk
   source_code_uri:
   obsolete:
   note:
   updated_at: '2025-06-19'
-  checked_at: '2025-07-04'
-  vcs: false
+  checked_at: '2025-07-07'
+  vcs: https://github.com/kevin197011/fluent-plugin-geoip-kk
 fluent-plugin-griddb:
   homepage_uri: https://github.com/griddb/fluent-plugin-griddb
   vcs: https://github.com/griddb/fluent-plugin-griddb
