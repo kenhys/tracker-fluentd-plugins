@@ -4,6 +4,7 @@ require 'optparse'
 require 'yaml'
 require 'fileutils'
 require 'timeout'
+require 'open-uri'
 
 =begin
 
@@ -19,7 +20,8 @@ options = {
   log_level: Logger::INFO,
   checked: File.expand_path(File.join(__dir__, "../data/checked.yml")),
   obsolete: File.expand_path(File.join(__dir__, "../data/obsolete-plugins.yml")),
-  output: "obsolete-plugins.yml"
+  output: "obsolete-plugins.yml",
+  strict: false
 }
 
 opt = OptionParser.new
@@ -36,6 +38,7 @@ opt.on("--log-level LEVEL", "Specify max processing GEMS") { |v|
 opt.on("--checked CHECKED_YAML", "Specify already manually investigated checked.yml") { |v| options[:checked] = v }
 opt.on("--obsolete OBSOLETE_PLUGINS_YAML", "Specify target obsolete-plugins.yml") { |v| options[:obsolete] = v }
 opt.on("--output OBSOLETE_PLUGINS_YAML", "Specify target obsolete-plugins.yml") { |v| options[:output] = v }
+opt.on("--[no-]strict-vcs", "Check with strict rule") { |v| options[:strict] = v }
 opt.parse!(ARGV)
 
 @logger = Logger.new(STDOUT)
@@ -67,23 +70,72 @@ EOS
   buffer
 end
 
-checked.each do |plugin|
-  plugin_name, metadata = plugin
-  unless metadata["vcs"]
-    unless obsolete_plugins[plugin_name]
-      # missing no VCS gem
-      @logger.warn("<#{plugin_name}> is missing")
-      obsolete_plugins[plugin_name] = "Git repository has gone away."
+def still_alive?(url)
+  begin
+    Timeout.timeout(10) do
+      URI.open(url)
     end
+    return true
+  rescue => e
+    return false
   end
+end
+
+checked.each_with_index do |plugin, index|
+  plugin_name, metadata = plugin
+  @logger.info("[#{index+1}/#{checked.size}] Checking #{plugin_name}...")
   if metadata["archived"]
-    message = "Unmaintained since #{metadata['archived_at']}."
     unless obsolete_plugins[plugin_name]
+      # already archived, but not listed yet
+      message = "Unmaintained since #{metadata['archived_at']}."
       @logger.warn("<#{plugin_name}> was #{message}")
       # Unmaintained since ...
       obsolete_plugins[plugin_name] = message
-    else
-      obsolete_plugins[plugin_name] << message
+    end
+  elsif metadata["source_code_uri"] and not metadata["source_code_uri"].empty?
+    unless obsolete_plugins[plugin_name]
+      # check it alive?
+      source_code_uri = metadata["source_code_uri"]
+      unless still_alive?(source_code_uri)
+
+        # fallback
+        homepage_uri = metadata["homepage_uri"]
+        if homepage_uri and homepage_uri.empty?
+          unless still_alive?(homepage_uri)
+            @logger.warn("<#{plugin_name}> homepage URI (#{homepage_uri}) was lost")
+            message = "Given homepage URI (#{homepage_uri}) was inaccessible. Only gem is available."
+            obsolete_plugins[plugin_name] = message
+          end
+        else
+          # no homepage URI
+          @logger.warn("<#{plugin_name}> homepage URI was missing")
+          message = "Missing homepage URI. Only gem is available."
+          obsolete_plugins[plugin_name] = message
+        end
+      end
+    end
+  elsif metadata["homepage_uri"] and not metadata["homepage_uri"].empty?
+    unless obsolete_plugins[plugin_name]
+      homepage_uri = metadata["homepage_uri"]
+      # check it still alive?
+      unless still_alive?(homepage_uri)
+        @logger.warn("<#{plugin_name}> homepage uri (#{homepage_uri}) was lost")
+        message = "Given homepage URI (#{homepage_uri}) was inaccessible. Only gem is available."
+        obsolete_plugins[plugin_name] = message
+      end
+    end
+  else
+    if options[:strict]
+      unless metadata["vcs"]
+        unless obsolete_plugins[plugin_name]
+          # missing no VCS gem
+          if options[:strict]
+          else
+            @logger.warn("<#{plugin_name}> is missing")
+            obsolete_plugins[plugin_name] = "Git repository has gone away."
+          end
+        end
+      end
     end
   end
 end
