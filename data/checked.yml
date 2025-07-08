@@ -6786,11 +6786,14 @@ fluent-plugin-reckoner-cdp:
   note:
 fluent-plugin-clickhouse:
   homepage_uri: https://github.com/kumagi/fluentd-plugin-clickhouse.
-  vcs: false
+  vcs: https://github.com/kumagi/fluent-plugin-clickhouse
   updated_at: '2025-06-19'
   source_code_uri:
   obsolete:
   note:
+  skip_vcs_check: true
+  comments:
+    - 20250708: homepage_uri is broken. https://github.com/kumagi/fluent-plugin-clickhouse/pull/1 should be merged.
 fluent-plugin-cratedb:
   homepage_uri: https://github.com/buom/fluent-plugin-cratedb
   vcs: https://github.com/buom/fluent-plugin-cratedb
